@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (c) 2017 Benjamin Raison
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,14 +15,9 @@
   ~
   -->
 
-<resources>
-    <string name="app_name">SSH Client</string>
-    <string name="username">User name</string>
-    <string name="password">Password</string>
-    <string name="server">Server</string>
-    <string name="log_in">Log in</string>
-    <string name="format_user" translatable="false">%s@%s</string>
-    <string name="error_required">This field is required</string>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
-    <!-- Strings related to login -->
-</resources>
+</LinearLayout>
