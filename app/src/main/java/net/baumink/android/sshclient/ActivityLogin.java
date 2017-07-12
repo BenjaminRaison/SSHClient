@@ -58,8 +58,8 @@ public class ActivityLogin extends AppCompatActivity {
             }
             if (ok) {
                 Intent intent = new Intent(this, ActivityMain.class);
-                intent.putExtra("server", txtServer.getText().toString());
-                intent.putExtra("username", txtUsername.getText().toString());
+                intent.putExtra("server", txtServer.getText().toString().trim());
+                intent.putExtra("username", txtUsername.getText().toString().trim());
                 intent.putExtra("password", txtPassword.getText().toString());
                 startActivity(intent);
             }

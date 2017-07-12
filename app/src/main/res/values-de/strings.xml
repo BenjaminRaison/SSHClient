@@ -22,4 +22,5 @@
     <string name="server">Server</string>
     <string name="log_in">Anmelden</string>
     <string name="error_required">Dies ist ein Pflichtfeld</string>
+    <string name="command">Befehl</string>
 </resources>

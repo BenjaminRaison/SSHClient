@@ -39,7 +39,6 @@
         </activity>
         <activity
             android:name=".ActivityMain"
-            android:label="Main"
             android:theme="@style/AppTheme.Fullscreen"/>
     </application>
 

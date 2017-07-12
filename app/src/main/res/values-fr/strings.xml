@@ -21,4 +21,5 @@
     <string name="username">Nom d\'utilisateur</string>
     <string name="server">Serveur</string>
     <string name="log_in">Connecter</string>
+    <string name="command">Commande</string>
 </resources>
